@@ -1,0 +1,192 @@
+body,html
+{
+	height: 100%;
+	overflow-x: hidden;
+}
+#home
+{
+	height: 100%;
+}
+#home h1
+{
+	font-weight: 900;
+	letter-spacing: 0.08em;
+	margin-bottom: 50px;
+	color: white;
+}
+body
+{
+	background:
+	url('../imagens/capa.png'),
+	url('../imagens/ruido.png'),
+	linear-gradient(50deg,#ff4169,#7c26f8);
+	background-attachment: fixed;
+	background-repeat: no-repeat center;
+}
+nav.transparent
+{
+	background:rgba(0,0,0,0.6);
+	padding: 10px 0px;
+}
+.navbar-light .navbar-nav .nav-link
+{
+	color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+	color:#9b90e1;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,0.5);
+}
+.divisor
+{
+	background:white;
+	width: 1px;
+	margin: 12px;
+}
+
+#home .btn-custom
+{
+	color: white;
+	border-radius: 500px;
+	transition: background 0.4,color 0.4s;
+	padding: 13px;
+}
+#home .btn-branco
+{
+	border:2px solid white;
+}
+#home .btn-branco:hover
+{
+	background-color:white;
+	color: black;
+}
+
+#home .btn-roxo
+{
+	background: #7c25f8;
+}
+
+#home .btn-roxo:hover
+{
+	background: #6207e3;
+	color: white;
+}
+.row img
+{
+	margin :10px 0px;
+}
+#servicos
+{
+	background-color: white;
+}
+.purple
+{
+	color: purple;
+}
+#conteudo
+{
+	color: white;
+}
+.rotacionar
+{
+	padding:40px;
+	transform: rotate(30deg);
+}
+#rodape
+{
+	position: relative;
+	padding:30px 0px;
+	height: auto;
+	background-color:black;
+}
+#rodape ul
+{
+	list-style: none;
+	text-decoration: none;
+	
+}
+#rodape li
+{
+	margin-left:10px;
+}
+#rodape a
+{
+	color: white;
+	font-size: 12px;
+}
+
+#rodape h6
+{
+	color: #919496;
+	font-weight: 400;
+}
+.icons
+{
+
+}
+/*--------------------------MEDIAS---------------------------------------*/
+@media(max-width: 989px)
+{
+
+	.nav-link
+	{
+		text-align: center;
+	}
+	#home .btn
+	{
+		margin: 10px;
+	}
+	#rodape li,#rodape ul
+	{
+		padding: 0;
+	}
+}
+@media (max-width: 575.98px) 
+{  	  
+	#home h1
+	{
+		font-size: 2em;
+	}
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) 
+{ 
+	#home h1
+	{
+		font-size: 3em;
+	}
+	#rotacionar img
+	{
+		width:10px;
+	}
+
+}
+
+ 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+#home h1
+	{
+		font-size: 4em;
+	} 
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+#home h1
+	{
+		font-size: 5em;
+	} 
+}
+
+@media (min-width: 1200px) 
+{ 
+#home h1
+	{
+		font-size: 6em;
+	} 
+
+
+}
