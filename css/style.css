@@ -123,10 +123,12 @@ nav.transparent
 	color: #919496;
 	font-weight: 400;
 }
-.icons
-{
 
+#rodape img
+{
+	cursor: pointer;
 }
+
 /*--------------------------MEDIAS---------------------------------------*/
 @media(max-width: 989px)
 {
@@ -144,11 +146,18 @@ nav.transparent
 		padding: 0;
 	}
 }
+
 @media (max-width: 575.98px) 
 {  	  
 	#home h1
 	{
 		font-size: 2em;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.navbar .container {
+		padding-inline: 15px;
 	}
 }
 
